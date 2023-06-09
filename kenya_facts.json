@@ -1,0 +1,57 @@
+{
+  "intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Habari", "Hi"],
+     "responses": ["Hi stranger", "Mambo, how can I help", "Hello friend", "Habari za siku", "Hola", "Hey dude", "You again"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+     "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Siku njema", "Peace out", "Sure dude", "Ciao"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+    },
+    {"tag": "noanswer",
+     "patterns": [],
+     "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+     },
+     {"tag": "name",
+      "patterns": ["What is your name", "What is your name", "Tell me your name", "Who are you", "Where are you", "Tell me about yourself", "You are"],
+      "responses": ["I am KenyaChatBot", "My name is KenyaChatBot", "You can call me KB for short", "I am KenyaChatBot, my friends call me KB", "KenyaChatBot is my name"]
+      },
+      {"tag": "options",
+       "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+       "responses": ["I can tell you about Kenya", "I can give you interesting facts about Kenya"]
+      },
+     {"tag": "kenya_info",
+      "patterns": ["Kenya", "What can you tell me about Kenya", "Kenya counties", "Tell me about Kenya", "What about Kenya", "What do you know about Kenya", "Tell me more about Kenya", "What can you tell me about Kenya", "Tell me about Kenya", "What about Kenya", "What do you know about Kenya", "Tell me more about Kenya"],
+      "responses": ["Kenya is the eastern most country in Africa, it had a population of more than 52.57 million in 2019 people and covers an area of 1221 037m2.","Currency: Kenyan shilling","President: Uhuru Kenyatta","Counties: 47"]
+      },
+      {"tag": "Kenya_facts",
+       "patterns": ["Kenya Facts", "Where to study", "Nairobi Facts", "Give me some facts about Kenya", "Give me some facts about Kenya", "What are characteristic facts  in Kenya", "Kenya interesting facts", "Kenya facts", "Kenya interesting facts", "Tell me something interesting"],
+       "responses": [
+         "The Masai Mara National Reserve is one of the most unforgettable experiences for visitors to Kenya",
+         "For those who love the sea, the coastal zone – especially near Mombasa – offers superb beaches and warm tropical waters swarming with colorful fish",
+         "Among typical Kenyan dishes, Githeri is a traditional recipe from the Central Province based on beans and corn",
+         "The climate of Kenya’s highland plateau is ideal in particular for growing arabica coffee. Kenyan coffee is world-famous for its quality, which also derives from the volcanic soil where it is cultivated, and because it is treated immediately on being harvested, thus maintaining its floral aroma",
+         "Kenya, country in East Africa famed for its scenic landscapes and vast wildlife preserves",
+         "The capital of Kenya is Nairobi, a sprawling city that, like many other African metropolises, is a study in contrasts, with modern skyscrapers looking out over vast shantytowns in the distance, many harbouring refugees fleeing civil wars in neighbouring countries. ",
+         "Anthropologists and other social scientists have documented for generations the lives of the Maasai, Luhya, Luo, Kalenjin, Kamba, Kisii, and Kikuyu peoples, to name only some of the groups",
+         "Kenya is bordered to the north by South Sudan and Ethiopia, to the east by Somalia and the Indian Ocean, to the south by Tanzania, and to the west by Lake Victoria and Uganda.",
+         "The Lake Victoria basin is part of a plateau rising eastward from the lakeshore to the Rift highlands. ",
+         "The Rift Valley splits the highland region into two sections: the Mau Escarpment to the west and the Aberdare Range to the east.",
+         "Farther east they are linked by the Nyeri saddle to Mount Kenya, the country’s highest peak, at 17,058 feet (5,199 metres). ",
+         "Most of the rivers in Kenya are short and often disappear during the dry season.",
+         "From December to March, northeast winds predominate north of the Equator, while south to southeast winds dominate south of it. ",
+         "Mount Kenya is the continent's second highest peak",
+         "In the cities you will find students with a thirst for knowledge, mingling and connecting, with both corporate business folk and the blended expat community – in the jazzy vivid markets to the high-rise architecturally praised structures.",
+         "KCA University is a Premier Business and Technology University of Choice in Kenya",
+         "Did you know Kenya was one of the first African countries to ban plastic bags? ",
+         "Conservation parks cover more than 6.3 million hectares of land and promote tourism and enhance local livelihoods. ",
+         "Kenya is well known for their conservancies and continued forces against poaching, illegal trading, deforestation, pollution and water shortage.",
+         "As one of the most dominating countries in the world of athletics, Kenya seems to always win collectively."
+       ]
+      }
+  ]
+}
